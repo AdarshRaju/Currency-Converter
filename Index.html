@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+    <h1>Amazing Currency Converter</h1>
+    <p>
+        Convert  
+        <input type="number" id="original-currency-amount" placeholder="1"></input>
+        <select name="original-currency-unit" id="original-currency-unit" placeholder="original currency"></select> 
+   to
+        <select name="new-currency-unit" id="new-currency-unit" placeholder="new currency"></select>
+    </p>
+    <p>
+        Exchange Rate:
+        <code id="exchange-rate"></code>
+    </p>
+    <div id='button'><button>Exchange my money now!</button></div>
+    <p id="output-text">
+        Converted 💰 will appear here.
+    </p>
+
+    <script src="index.js"></script>
+    </body>
+</html>
